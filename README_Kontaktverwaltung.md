@@ -1,54 +1,62 @@
-# 📇 Kontaktverwaltung 3000
+# 📇 Kontaktverwaltung mit Python
 
-Willkommen zu meinem ersten Python-Projekt!  
-Dieses kleine Programm dient zur Verwaltung von Kontakten direkt in der Konsole.
-
----
-
-## 🔍 Funktionen
-
-- 👤 Kontakt hinzufügen (Name + Telefonnummer)
-- 📋 Alle gespeicherten Kontakte anzeigen
-- 💾 Kontakte in eine Datei speichern (`kontakte.txt`)
-- 📂 Kontakte aus einer Datei laden
-- 🔄 Telefonnummer eines bestehenden Kontakts aktualisieren
-- 🧭 Benutzerfreundliches Menü mit Symbolen
+Ein einfaches, konsolenbasiertes Programm zur Verwaltung von Kontakten – ideal für Lernzwecke und erste Python-Projekte.
 
 ---
 
-## ▶️ Wie benutze ich das Programm?
+## ✨ Funktionen
 
-1. Stelle sicher, dass du Python 3 installiert hast.
-2. Lade die Datei `Kontaktverwaltung_mit_Update.py` herunter.
-3. Öffne ein Terminal oder benutze VS Code.
-4. Starte das Programm mit:
+✅ Neue Kontakte hinzufügen  
+✅ Bestehende Kontakte anzeigen  
+✅ Kontakte nach Name aktualisieren  
+✅ Speicherung in einer Datei (`kontakte.txt`) zur langfristigen Aufbewahrung
+
+---
+
+## 🛠️ Verwendete Technologien
+
+- Python 3
+- Grundlagen der Dateiverarbeitung
+- Ein- und Ausgabe in der Konsole
+- Datenstruktur: Dictionary
+
+---
+
+## ▶️ So funktioniert das Programm
+
+1. Beim Start wird ein Menü angezeigt (Hinzufügen, Anzeigen, Aktualisieren, Beenden)
+2. Kontakte werden lokal im RAM gespeichert
+3. Bei jeder Änderung wird die Datei `kontakte.txt` aktualisiert
+4. Bei erneutem Start werden bestehende Kontakte geladen
+
+---
+
+## 🚀 Ausführen
 
 ```bash
 python Kontaktverwaltung_mit_Update.py
 ```
 
----
-
-## 📁 Dateien
-
-- `Kontaktverwaltung_mit_Update.py` – Hauptprogramm
-- `kontakte.txt` – wird automatisch erstellt, wenn Kontakte gespeichert werden
+> Stelle sicher, dass sich die Datei im aktuellen Arbeitsverzeichnis befindet.
 
 ---
 
-## ✨ Warum dieses Projekt?
+## 📁 Beispiel
 
-Ich habe dieses Projekt erstellt, um mein Wissen in Python zu festigen und die Grundlagen wie Variablen, Bedingungen, Schleifen, Funktionen, Dateien und Benutzereingaben praktisch anzuwenden – und das alles **auf Deutsch** 🇩🇪
-
----
-
-## 💡 Nächste Schritte
-
-- Suchfunktion für Kontakte
-- Löschfunktion
-- Speichern in JSON oder CSV
-- Grafische Benutzeroberfläche (GUI)
+```
+1. Kontakt hinzufügen
+2. Alle Kontakte anzeigen
+3. Kontakt aktualisieren
+4. Beenden
+```
 
 ---
 
-Viel Spaß beim Ausprobieren! 😊
+## 📌 Lernziel
+
+Dieses Projekt wurde im Rahmen meines Einstiegs in die Programmierung und Python umgesetzt.  
+Es zeigt den Umgang mit Dateien, Menüs, Benutzereingaben und Dictionaries.
+
+---
+
+👩‍💻 Entwickelt von [Yael Solan](https://github.com/yaelsolan)
